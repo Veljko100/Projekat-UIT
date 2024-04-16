@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакт - Вељко Радуловић</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/1.png">
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header>
+            <div class="container zaglavlje">
+                <a id="logo" href="index.html"></a>
+                <ul class="nav">
+                    <li><a href="index.html">Почетна</a></li>
+                    <li><a href="galerija.html">Галерија</a></li>
+                    <li><a href="knjige.html">Књиге</a></li>
+                    <li><a href="knjizara.html">O нама</a></li>
+                    <li><a href="kontakt.html" class="active">Контакт</a></li>
+                </ul>
+            </div>
+        </header>
+        <div id="menu">
+            <a id="metaMenu" href="#">&#9776;</a>
+          </div>
+        <main>
+            <div class="container">
+                <div>
+                    
+                    <div id="kontakt">
+                        <div id="leviK">
+
+                            <form action="#">
+                                <div class="form-group"><label for="ime">Име и презиме </label>
+                                    <input type="text" name="ime" id="ime" placeholder="Унеси име и презиме">
+                                    <span class="error">Неисправно име!</span>
+                                </div>
+                                <div class="form-group"><label for="email">Email</label>
+                                    <input type="email" name="email" id="email" placeholder="Унеси Email">
+                                    <span class="error">Неисправан email!</span>
+                                </div>
+                                <div class="form-group"><label for="tel">Број телефона</label>
+                                    <input type="tel" name="tel" id="tel" placeholder="xxx/xxxx-xxx">
+                                    <span class="error">Неисправан телефон!</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="pass">Унесите лозинку </label>
+                                    <input type="password" name="pass" id="pass" placeholder="Унеси шифру">
+                                    <span class="error">Лозинке се не поклапају!</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="pass2">Потврдите лозинку </label>
+                                    <input type="password" name="pass2" id="pass2" placeholder="Унеси шифру">
+                                    <span class="error">Неисправна лозинка</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="poruka">Унеси поруку</label><textarea name="poruka" id="poruka"
+                                        cols="30" rows="10"></textarea>
+                                        <span class="error">Неисправна дужина минимум пет карактера!!!!</span>
+                                </div>
+                                <div class="form-group"><input type="submit" id="posalji" value="Пошаљи"></div>
+
+                            </form>
+
+
+                        </div>
+                        <div id="desniK"><iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2899.710333502085!2d21.022808599295065!3d43.38308045939365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47566b935636c503%3A0xf623fdba1c1a2717!2z0JHRgNCw0YLQuNGB0LvQsNCy0LUg0J_QtdGC0YDQvtCy0LjRmywg0JHRgNGD0YE!5e0!3m2!1ssr!2srs!4v1673967978352!5m2!1ssr!2srs"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                    </div>
+                </div>
+            </div>
+            >
+        </main>
+        <footer>
+            <div class="container">
+
+                <div class="fott">
+                    <div class="copi">
+                        <p>Copyright by Вељко Радуловић &copy;</p>
+                    </div>
+                    <div class="social">
+                        <a target="_blank"  href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a target="_blank" href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        <a target="_blank" href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                        <a target="_blank" href="https://www.tiktok.com/en/"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+    <script src="js/kontakt.js"></script>
+</body>
+
+</html>
